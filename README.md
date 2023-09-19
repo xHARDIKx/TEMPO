@@ -8,7 +8,7 @@
 Tempoc is a simple and user-friendly web-based temperature converter that allows you to easily convert temperatures between different units. Whether you need to convert Celsius to Fahrenheit, Kelvin to Rankine, or any other combination, Tempoc has got you covered.
 
 Visit the website: [tempoc.vercel.app](https://tempoc.vercel.app/)  
-Alternate link: [tempoc.ezyro.com](https://tempoc.ezyro.com/)
+
 
 Tempoc was built using HTML, CSS, and JavaScript.
 
@@ -20,7 +20,7 @@ Tempoc was built using HTML, CSS, and JavaScript.
 
 ## Usage
 
-1. Visit the [Tempoc website](https://tempoc.vercel.app/) or use the alternate link [tempoc.ezyro.com](https://tempoc.ezyro.com/).
+1. Visit the [Tempoc website](https://tempoc.vercel.app/)
 2. Select the input temperature unit from the dropdown menu.
 3. Enter the temperature value in the provided input field.
 4. Select the desired output temperature unit from the second dropdown menu.
@@ -29,5 +29,5 @@ Tempoc was built using HTML, CSS, and JavaScript.
 
 ## Getting Started
 
-To use Tempoc, simply visit the [Tempoc website](https://tempoc.vercel.app/) or use the alternate link [tempoc.ezyro.com](https://tempoc.ezyro.com/).
+To use Tempoc, simply visit the [Tempoc website](https://tempoc.vercel.app/) 
 
