@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background">
+
+        <h1 class="bg"><img src="icon.png" alt="Icon" class="icon"></h1>
+        
+        
+    </div>
+    <div class = "bg2">
+        
+        <h1 class="bg2">TEMPO</h1>  
+       
+
+        
+    </div>
+    <header>
+        <!-- ...existing header content... -->
+
+        
+            
+        </div>
+    
+    <div class="nav-but">
+        <a href="#home" class="btn">Converter</a>
+        <a href="#formulas" class="btn">Formulas</a>
+        <a href="#origin" class="btn">Origin</a>
+      
+          
+        
+
+    </div>
+    
+   
+    </header>
+    
+    
+    <section id="home" class="home"></section>
+
+    <h1 class="head">Temperature Converter</h1>
+    <div class="container">
+        <h1 class="heading">Convert Temperature</h1>
+        <div class="input-group">
+            <label for="temperature">Temperature:</label>
+            <input type="number" id="temperature" class="temperature-input">
+            <select id="unit" class="temperature-unit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="rankine">Rankine</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="conversion">Convert  to  :-> </label>
+            <select id="conversion" class="temperature-unit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="rankine">Rankine</option>
+            </select>
+        </div>
+       
+        <button id="convertButton" onclick="convert()">Convert</button>
+        <button id="clearButton" onclick="clearFields()">Clear</button>
+
+        
+        <div class="output-group">
+            <label for="result">Result:</label>
+            <input type="text" id="result" class="result-input" readonly>
+            
+        </div>
+        <div id="usedFormula" class="used-formula"></div>
+    </div>
+
+</section>
+
+<section id="formulas" class="formulas"></section>
+
+<h1 class = "head2">Temperature Conversion Formula Table</h1>
+    <div class="formulas">
+        
+            <!-- Celsius Conversion Formulas Table -->
+<!-- Celsius Conversion Formulas Table -->
+
+    <h2 class="formula-heading">Celsius Conversion Formula</h2>
+    <table>
+        <tr>
+            <th>To</th>
+            <th>Formula</th>
+        </tr>
+        <tr>
+            <td>Fahrenheit (°F)</td>
+            <td>(Celsius × 9/5) + 32</td>
+        </tr>
+        <tr>
+            <td>Kelvin (K)</td>
+            <td>Celsius + 273.15</td>
+        </tr>
+        <tr>
+            <td>Rankine (°R)</td>
+            <td>(Celsius × 9/5) + 491.67</td>
+        </tr>
+        
+    </table>
+</div>
+
+<!-- Fahrenheit Conversion Formulas Table -->
+<div class="formulas">
+    <h2 class="formula-heading">Fahrenheit Conversion Formula</h2>
+    <table>
+        <tr>
+            <th>To</th>
+            <th>Formula</th>
+        </tr>
+        <tr>
+            <td>Celsius (°C)</td>
+            <td>(Fahrenheit - 32) * 5/9</td>
+        </tr>
+        <tr>
+            <td>Kelvin (K)</td>
+            <td>(Fahrenheit + 459.67) * 5/9</td>
+        </tr>
+        <tr>
+            <td>Rankine (°R)</td>
+            <td>Fahrenheit + 459.67</td>
+        </tr>
+       
+    </table>
+</div>
+<!-- Kelvin Conversion Formulas Table -->
+<div class="formulas">
+    <h2 class="formula-heading">Kelvin Conversion Formula</h2>
+    <table>
+        <tr>
+            <th>To</th>
+            <th>Formula</th>
+        </tr>
+        <tr>
+            <td>Celsius (°C)</td>
+            <td>Kelvin - 273.15</td>
+        </tr>
+        <tr>
+            <td>Fahrenheit (°F)</td>
+            <td>(Kelvin * 9/5) - 459.67</td>
+        </tr>
+        <tr>
+            <td>Rankine (°R)</td>
+            <td>Kelvin * 9/5</td>
+        </tr>
+        
+    </table>
+</div>
+
+<!-- Rankine Conversion Formulas Table -->
+<div class="formulas">
+    <h2 class="formula-heading">Rankine Conversion Formula</h2>
+    <table>
+        <tr>
+            <th>To</th>
+            <th>Formula</th>
+        </tr>
+        <tr>
+            <td>Celsius (°C)</td>
+            <td>(Rankine - 491.67) * 5/9</td>
+        </tr>
+        <tr>
+            <td>Fahrenheit (°F)</td>
+            <td>Rankine - 459.67</td>
+        </tr>
+        <tr>
+            <td>Kelvin (K)</td>
+            <td>Rankine * 5/9</td>
+        </tr>
+       
+    </table>
+</div>
+<section id="origin" class="origin"></section>
+
+
+    
+<div class="origin-section">
+    <h1 class = "head3">Origin of Temperature Scales</h1>
+    <p>
+        The concept of temperature conversion, or converting temperatures between different scales, has its origins in the development of temperature measurement systems and the need for standardized units.
+    </p>
+
+    <h3>Celsius (Centigrade) Scale</h3>
+    <p>
+        The Celsius scale, originally known as the Centigrade scale, was developed by Swedish astronomer Anders Celsius in the early 18th century. He proposed a scale with 0 representing the freezing point of water and 100 representing the boiling point. The scale was later reversed to its current form, with 100 representing freezing and 0 representing boiling.
+    </p>
+
+    <h3>Fahrenheit Scale</h3>
+    <p>
+        The Fahrenheit scale was developed by Daniel Gabriel Fahrenheit, a German physicist, in the early 18th century. Fahrenheit's scale used a mixture of ice, water, and salt to establish fixed points. He set 32 as the freezing point of water and 212 as the boiling point.
+    </p>
+
+    <h3>Kelvin Scale</h3>
+    <p>
+        The Kelvin scale is an absolute temperature scale that was proposed by Scottish physicist William Thomson, 1st Baron Kelvin. It was established in the 19th century and is based on the concept of absolute zero, the lowest possible temperature where particles cease to vibrate. Absolute zero is defined as 0 Kelvin.
+    </p>
+
+    <h3>Rankine Scale</h3>
+    <p>
+        The Rankine scale is another absolute temperature scale, named after the Scottish engineer and physicist William John Macquorn Rankine. It's primarily used in engineering contexts, particularly in the United States.
+    </p>
+    <p>
+        These scales were developed to provide standardized and universally understood methods of measuring and communicating temperature. The conversion between these scales allows for ease of communication between different regions and fields of science and engineering.
+    </p>
+
+    <p>
+        Today, the Celsius scale is commonly used in most of the world for general temperature measurements, while the Fahrenheit scale is more prevalent in the United States. The Kelvin scale is used in scientific and engineering contexts where absolute temperature measurements are required. The Réaumur and Rankine scales are less commonly used today but still have niche applications.
+    </p>
+
+
+
+</section>
+</body>
+
+<footer>
+    <div class="footer">
+     <!--my site name is TEMPO-->
+      
+     <button onclick="scrollToHome()"> Website name :-Tempo</button>
+     <h4>© 2023 Tempo. All rights reserved.</h4>
+        <p>Created by:-> Hardik</p>
+
+    </footer>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hardik0o0" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/xHARDIKx" target="_blank"><img   src="git.png" alt="Git"></a>
+                <a href="https://www.instagram.com/thehardik_official" target="_blank"><img   src="insta.png" alt="Insta"></a>
+                <a href="https://wa.me/+919310898123" target="_blank"><img src="wp.png" alt="WhatsApp"></a>
+                <a href="https://www.snapchat.com/add/hardiko.o" target="_blank"><img src="snap.png" alt="Snapchat"></a>
+            </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>

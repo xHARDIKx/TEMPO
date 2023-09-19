@@ -1,0 +1,383 @@
+body {
+    font-family: Arial, sans-serif;
+    display: column;   
+     justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+ 
+}
+
+
+.icon {
+    position: absolute;
+    top: 5px;
+    
+    left: 10px;
+    width: 110px; /* Adjust the width and height as needed */
+    height: 50px;
+}
+.icon2 {
+    position: absolute;
+    top: 5px;
+    
+    left: 116px;
+    width: 110px; /* Adjust the width and height as needed */
+    height: 50px;
+}
+
+
+
+    .head{
+       
+        
+        text-align: center;
+        padding: 0.5cm;
+        position: static;
+        margin-top: 0;
+        margin-left: -1000px;
+        
+        -webkit-text-fill-color: #000000;
+        -webkit-text-stroke-width: 1.5px;
+        
+        font-size: 50px;
+        
+    }
+   
+    .head2{
+       
+        
+        text-align: center;
+        padding: 0.5cm;
+        position: static;
+        margin-top: 0;
+        margin-left: -600px;
+        
+        -webkit-text-fill-color: #000000;
+        -webkit-text-stroke-width: 1.5px;
+        
+        font-size: 50px;
+        
+    }
+    .head3 {
+        text-align: center;
+        padding: 0.5cm;
+        position: static;
+        margin-top: 0;
+        margin-left: -197px;
+        margin-bottom: 0;
+        -webkit-text-fill-color: #000000;
+        -webkit-text-stroke-width: 1.5px;
+        font-size: 50px;
+    }
+    .about-box {
+        border: 2px solid #333; /* Border style, adjust color and width as needed */
+        padding: 20px; /* Padding inside the box */
+        background-color: #333; /* Background color */
+        text-align: center; /* Center the text */
+    }
+header {
+    
+    color: #2a4567;
+    text-align: center;
+    padding: -55cm;
+    position: fixed;
+
+
+    margin-top: 5px;
+    top: 0;
+}
+.nav-but {
+    position: fixed;
+    
+    top: 10px;  
+    right: 100px;
+
+}
+.btn {
+    display: inline-block;
+    padding: 1em 9em;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #363232;
+    color: #fff;
+    margin-left: 130px;
+    transition: ease-out 0.5s;
+    
+  
+}
+.btn:hover {
+    background-color: #939191;
+}
+.container {
+    max-width: 671px;
+    padding: 159px;
+    border: 1px solid #ccc;
+    border-radius: 37px;
+    background-color: #f9f9f9;
+    margin-right: 289px;
+    margin-left: 35px;
+}
+.heading {
+    background-color: #569136; /* Set the background color for the heading */
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -140px;
+    
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 54px;
+    align-items: normal;
+    color: #dadfc6; 
+}
+.input-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+
+}
+
+.temperature-input,
+
+.temperature-unit,
+.result-input {
+    width: calc(50% - 67px);
+    padding: 10px;
+}
+
+.home{
+    padding: 40px;
+    
+
+}
+.formulas{
+    padding :50px;
+ 
+
+}
+/* ... (previous CSS rules) ... */
+
+#convertButton {
+    padding: 11px 21px;
+    margin-top: 23px;
+    margin-left: 240px;
+    margin-bottom: 39px;
+    font-size: 30px;
+    background-color: #d49b5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#convertButton:hover {
+    background-color: #3e7c1c; /* Button color on hover */
+}
+
+#convertButton:active {
+    background-color: #9d5528; /* Button color on click */
+}
+
+ #clearButton {
+    background-color: #9d5528; /* Set a red color for the Clear button */
+    color: #fff; /* Set text color to white */
+    font-size: 30px; /* Adjust font size */
+    padding: 11px 40px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+   
+}
+
+ #clearButton:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+#clearButton:active {
+    background-color: #3e7c1c; /* Even darker red on click */
+}
+
+
+.output-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ... (previous CSS rules) ... */
+
+/* ... (previous CSS rules) ... */
+
+.used-formula {
+    font-size: 15px;
+    color: #555;
+    margin-top: 40px;
+    
+    text-align: center;
+}
+
+.formulas table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin : 1px 40px;
+    background-color: #9c0a0a; /* Set a light background color for the table */
+}
+
+.formulas th, .formulas td {
+    border: 1px solid #000000;
+    padding: 1%;
+
+    text-align: center;
+    background-color: #71b5ce; /* Set a white background color for the cells */
+}
+
+.formulas th {
+    background-color: #2a5076;
+    color: #fff;
+}
+
+
+/* ... (remaining CSS rules) ... */
+
+
+
+/* ... (previous CSS rules) ... */
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;    
+    width: 200%;
+    height: 60px;
+  /*   background-color: #363232;
+     /* Set black background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #363232;
+}
+
+
+.bg {
+   /* Set white text color */
+
+   background: fixed;
+   width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+     
+    
+}
+.bg1{
+    /* Set white text color */
+    width: 100%;
+     font-size: 30px;
+     font-weight: bold;
+     margin: 0;
+     
+      
+} 
+
+.bg2 {
+    background-color: #363232;
+    background: fixed;
+    color: #a41743;
+    padding: 22px;
+    text-align: left;   
+    margin-left: 200px;
+    font-size: 25px;
+    width: 100%;
+     font-size: 30px;
+     font-weight: bold;
+     margin: 0;
+}
+
+
+.bg2 h1 {
+    margin: -10px; /* Remove default margin for h1 */
+    font-size: 40px; /* Adjust the font size */
+    font-size: 30px;
+    font-weight: bold;   
+    position: fixed;   
+    margin-left: 61px;
+    margin-top: -28px;
+    
+}
+.bg3 {
+    background-color: #363232;
+    background: fixed;
+    color: #a41743;
+    padding: 22px;
+    text-align: left;   
+    margin-left: 200px;
+    font-size: 25px;
+    width: 100%;
+     font-size: 30px;
+     font-weight: bold;
+     margin: 0;
+}
+
+
+.bg3 h3 {
+    margin: -10px; /* Remove default margin for h1 */
+    font-size: 40px; /* Adjust the font size */
+    font-size: 30px;
+    font-weight: bold;   
+    position: fixed;   
+    margin-left: 61px;
+    margin-top: -28px;
+    
+}
+
+.origin-section {
+    background-color: #c0c0c0;
+    border-radius: 493px;
+    padding: 201px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+
+.origin-section p {
+    font-size: 16px;
+    color: #090909;
+    margin-bottom: 10px;
+}
+
+
+.origin-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.origin-section h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;   
+    margin-bottom: 10px;
+}
+
+
+.social-icons {
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+
+.social-icons a {
+    margin-right: 10px; /* Add some right margin for spacing between icons */
+}
+
+.social-icons img {
+    width: 40px; /* Set the desired width for your icons */
+    height: 40px; /* Set the desired height for your icons */
+}
+
