@@ -1,7 +1,7 @@
 # TEMPO
 # Temperature Converter - Tempoc
 
-![logo](TEMPO/logo.png)
+![logo](logo.png)
 
 ## Introduction
 
