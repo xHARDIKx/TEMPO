@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     display: column;   
      justify-content: right;
@@ -14,7 +14,7 @@ body {
     top: 5px;
     
     left: 10px;
-    width: 110px; /* Adjust the width and height as needed */
+    width: 110px; /* Adjust the width and height as needed 
     height: 50px;
 }
 .icon2 {
@@ -22,7 +22,7 @@ body {
     top: 5px;
     
     left: 116px;
-    width: 110px; /* Adjust the width and height as needed */
+    width: 110px; /* Adjust the width and height as needed 
     height: 50px;
 }
 
@@ -71,10 +71,10 @@ body {
         font-size: 50px;
     }
     .about-box {
-        border: 2px solid #333; /* Border style, adjust color and width as needed */
-        padding: 20px; /* Padding inside the box */
-        background-color: #333; /* Background color */
-        text-align: center; /* Center the text */
+        border: 2px solid #333; /* Border style, adjust color and width as needed
+        padding: 20px; /* Padding inside the box 
+        background-color: #333; /* Background color 
+        text-align: center; /* Center the text 
     }
 header {
     
@@ -119,7 +119,7 @@ header {
     margin-left: 35px;
 }
 .heading {
-    background-color: #569136; /* Set the background color for the heading */
+    background-color: #569136; /* Set the background color for the heading 
     padding: 10px 20px;
     color: #fff;
     text-align: center;
@@ -162,7 +162,7 @@ header {
  
 
 }
-/* ... (previous CSS rules) ... */
+/* ... (previous CSS rules) ... 
 
 #convertButton {
     padding: 11px 21px;
@@ -179,30 +179,30 @@ header {
 }
 
 #convertButton:hover {
-    background-color: #3e7c1c; /* Button color on hover */
+    background-color: #3e7c1c; /* Button color on hover 
 }
 
 #convertButton:active {
-    background-color: #9d5528; /* Button color on click */
+    background-color: #9d5528;  Button color on click 
 }
 
  #clearButton {
-    background-color: #9d5528; /* Set a red color for the Clear button */
-    color: #fff; /* Set text color to white */
-    font-size: 30px; /* Adjust font size */
-    padding: 11px 40px; /* Adjust padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add rounded corners */
+    background-color: #9d5528; /* Set a red color for the Clear button 
+    color: #fff; /* Set text color to white 
+    font-size: 30px; /* Adjust font size 
+    padding: 11px 40px; /* Adjust padding 
+    border: none; /* Remove border 
+    border-radius: 5px; /* Add rounded corners 
     cursor: pointer;
    
 }
 
  #clearButton:hover {
-    background-color: #c82333; /* Darker red on hover */
+    background-color: #c82333; /* Darker red on hover 
 }
 
 #clearButton:active {
-    background-color: #3e7c1c; /* Even darker red on click */
+    background-color: #3e7c1c; /* Even darker red on click 
 }
 
 
@@ -211,9 +211,9 @@ header {
     align-items: center;
     justify-content: center;
 }
-/* ... (previous CSS rules) ... */
+/* ... (previous CSS rules) ... 
 
-/* ... (previous CSS rules) ... */
+/* ... (previous CSS rules) ... 
 
 .used-formula {
     font-size: 15px;
@@ -228,7 +228,7 @@ header {
     border-collapse: collapse;
     margin-top: 10px;
     margin : 1px 40px;
-    background-color: #9c0a0a; /* Set a light background color for the table */
+    background-color: #9c0a0a; /* Set a light background color for the table 
 }
 
 .formulas th, .formulas td {
@@ -236,7 +236,7 @@ header {
     padding: 1%;
 
     text-align: center;
-    background-color: #71b5ce; /* Set a white background color for the cells */
+    background-color: #71b5ce; /* Set a white background color for the cells
 }
 
 .formulas th {
@@ -245,11 +245,11 @@ header {
 }
 
 
-/* ... (remaining CSS rules) ... */
+/* ... (remaining CSS rules) ... 
 
 
 
-/* ... (previous CSS rules) ... */
+/* ... (previous CSS rules) ... 
 
 .background {
     position: fixed;
@@ -258,7 +258,7 @@ header {
     width: 200%;
     height: 60px;
   /*   background-color: #363232;
-     /* Set black background color */
+     /* Set black background color 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -267,7 +267,7 @@ header {
 
 
 .bg {
-   /* Set white text color */
+   /* Set white text color 
 
    background: fixed;
    width: 100%;
@@ -278,7 +278,7 @@ header {
     
 }
 .bg1{
-    /* Set white text color */
+    /* Set white text color 
     width: 100%;
      font-size: 30px;
      font-weight: bold;
@@ -303,8 +303,8 @@ header {
 
 
 .bg2 h1 {
-    margin: -10px; /* Remove default margin for h1 */
-    font-size: 40px; /* Adjust the font size */
+    margin: -10px; /* Remove default margin for h1 
+    font-size: 40px; /* Adjust the font size 
     font-size: 30px;
     font-weight: bold;   
     position: fixed;   
@@ -328,8 +328,8 @@ header {
 
 
 .bg3 h3 {
-    margin: -10px; /* Remove default margin for h1 */
-    font-size: 40px; /* Adjust the font size */
+    margin: -10px; /* Remove default margin for h1 
+    font-size: 40px; /* Adjust the font size 
     font-size: 30px;
     font-weight: bold;   
     position: fixed;   
@@ -369,15 +369,474 @@ header {
 
 
 .social-icons {
-    margin-top: 10px; /* Add some top margin for spacing */
+    margin-top: 10px; /* Add some top margin for spacing *
 }
 
 .social-icons a {
-    margin-right: 10px; /* Add some right margin for spacing between icons */
+    margin-right: 10px; /* Add some right margin for spacing between icons *
 }
 
 .social-icons img {
-    width: 40px; /* Set the desired width for your icons */
-    height: 40px; /* Set the desired height for your icons */
+    width: 40px; /* Set the desired width for your icons *
+    height: 40px; /* Set the desired height for your icons 
 }
+ 
 
+            /* Converted HTML Code */
+            
+
+    
+                
+                /* Converted CSS Code */
+                
+    
+          
+    body {
+        font-family: Arial, sans-serif;
+        display: column;   
+         justify-content: right;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+     
+    }
+    
+    
+    .icon {
+        position: absolute;
+        top: 0.3125rem;
+        
+        left: 0.625rem;
+        width: 6.875rem; /* Adjust the width and height as needed */
+        height: 3.125rem;
+    }
+    .icon2 {
+        position: absolute;
+        top: 0.3125rem;
+        
+        left: 7.25rem;
+        width: 6.875rem; /* Adjust the width and height as needed */
+        height: 3.125rem;
+    }
+    
+    
+    
+        .head{
+           
+            
+            text-align: center;
+            padding: 1.18em;
+            position: static;
+            margin-top: 0;
+            margin-left: -21.5rem;
+            
+            -webkit-text-fill-color: #000000;
+            -webkit-text-stroke-width: 1.0.3125rem;
+            
+            font-size: 3.125rem;
+            
+        }
+       /* .temperature-input{
+            
+                
+                text-align: center;
+                padding: 1.18em;
+               margin: auto;
+       } */
+        .head2{
+           
+            
+            text-align: center;
+            padding: 1.18em;
+            position: static;
+            margin-top: 0;
+            margin-left: -7rem;
+            
+            -webkit-text-fill-color: #000000;
+            -webkit-text-stroke-width: 1.0.3125rem;
+            
+            font-size: 3.125rem;
+            
+        }
+        .head3 {
+            text-align: center;
+            padding: 1.18em;
+            position: static;
+            margin-top: 0;
+            margin-left: -12.3125rem;
+            margin-bottom: 0;
+            -webkit-text-fill-color: #000000;
+            -webkit-text-stroke-width: 1.0.3125rem;
+            font-size: 3.125rem;
+        }
+        .about-box {
+            border: 0.125rem solid #333; /* Border style, adjust color and width as needed */
+            padding: 1.25rem; /* Padding inside the box */
+            background-color: #333; /* Background color */
+            text-align: center; /* Center the text */
+        }
+    header {
+        
+        color: #2a4567;
+        text-align: center;
+        padding: -55cm;
+        position: fixed;
+        margin-top: 0.3125rem;
+        top: 0;
+    }
+    .nav-but {
+        position:fixed;
+        margin: 4rem 4 rem;
+        top: 0.625rem;  
+        right: 6.25rem;
+    
+    }
+    .btn {
+        display: inline-block;
+        padding: 1em 9em;
+        font-size: 1em;
+        text-decoration: none;
+        background-color: #363232;
+        color: #fff;
+        margin-left: -1rem;
+        transition: ease-out 0.5s;
+        
+      
+    }
+    .btn:hover {
+        background-color: #939191;
+    }
+    .container {
+        max-width: 41.9375rem;
+        padding: 9.9375rem;
+        border: 0.0625rem solid #ccc;
+        border-radius: 2.3125rem;
+        background-color: #f9f9f9;
+        margin-right: 30rem;
+        margin-left: 30rem;
+        
+    }
+    .heading {
+        background-color: #569136; /* Set the background color for the heading */
+        padding: 0.625rem 1.25rem;
+        color: #fff;
+        text-align: center;
+        border-radius: 0.5rem;
+        /* margin-top: -8.75rem; */
+        
+    
+        font-size: 1.875rem;
+        font-weight: bold;
+        margin-bottom: 3.375rem;
+        align-items: normal;
+        
+    }
+    .input-group {
+        margin-bottom: 2rem;
+    }
+    .result-input{
+        margin-top:  4rem;
+    }
+    .label {
+        font-weight: bold;
+        margin-bottom: 0.3125rem;
+        display: block;
+    
+    }
+    label {
+        font-size: 2rem; 
+    }
+    .output-group-label {
+        padding: 0.625rem;
+    }
+    .temperature-input,
+    
+    .temperature-unit,
+    .result-input {
+        /* width: calc(50% - 4.1875rem); */
+        
+        padding: 0.625rem;
+        text-align: webkit-center;
+    }
+    
+    .home{
+        padding: 2.5rem;
+        
+    
+    }
+    .formulas{
+        padding :3.125rem;
+     
+    
+    }
+    /* ... (previous CSS rules) ... */
+    
+    #convertButton {
+        /* padding: 0.6875rem 1.3125rem;
+         */
+
+        /* margin-top: 1.4375rem; */
+        margin-left: 3rem;
+        /* margin-bottom: 2.4375rem; */
+        font-size: 1.875rem;
+        background-color: #d49b5f;
+        color: #fff;
+        padding: 1rem 1rem 1rem 1rem;
+        border: none;
+        border-radius: 0.3125rem;
+        cursor: pointer;
+        text-align: center;
+        /* margin-right: 0.3125rem; */
+    }
+    
+    #convertButton:hover {
+        background-color: #3e7c1c; /* Button color on hover */
+    }
+    
+    #convertButton:active {
+        background-color: #9d5528; /* Button color on click */
+    }
+    
+     #clearButton {
+        background-color: #9d5528; /* Set a red color for the Clear button */
+        color: #fff; /* Set text color to white */
+        font-size: 1.875rem; /* Adjust font size */
+        /* Adjust padding */
+        border: none; /* Remove border */
+        border-radius: 0.3125rem; /* Add rounded corners */
+        cursor: pointer;
+       margin-left:3rem;
+       text-align: center;
+       padding: 1rem 2rem 1rem 2rem;
+    }
+    
+     #clearButton:hover {
+        background-color: #c82333; /* Darker red on hover */
+    }
+    
+    #clearButton:active {
+        background-color: #3e7c1c; /* Even darker red on click */
+    }
+    
+    
+    .output-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    /* ... (previous CSS rules) ... */
+    
+    /* ... (previous CSS rules) ... */
+    
+    .used-formula {
+        font-size: 0.9375rem;
+        color: #555;
+        margin-top: 2.5rem;
+        
+        text-align: center;
+    }
+    
+    .formulas table {
+        width: 80%;
+        border-collapse: collapse;
+        margin-top: 0.625rem;
+        margin : 0.0625rem 2.5rem;
+        background-color: #9c0a0a; /* Set a light background color for the table */
+    }
+    
+    .formulas th, .formulas td {
+        border: 0.0625rem solid #000000;
+        padding: 1%;
+    
+        text-align: center;
+        background-color: #71b5ce; /* Set a white background color for the cells */
+    }
+    
+    .formulas th {
+        background-color: #2a5076;
+        color: #fff;
+    }
+    
+    
+    /* ... (remaining CSS rules) ... */
+    
+    
+    
+    /* ... (previous CSS rules) ... */
+    
+    .background {
+        position: fixed;
+        top: 0;
+        left: 0;    
+        width: 200%;
+        height: 3.75rem;
+      /*   background-color: #363232;
+         /* Set black background color */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #363232;
+    }
+    
+    
+    .bg {
+       /* Set white text color */
+    
+       background: fixed;
+       width: 100%;
+        font-size: 1.875rem;
+        font-weight: bold;
+        margin: 0;
+         
+        
+    }
+    .bg1{
+        /* Set white text color */
+        width: 100%;
+         font-size: 1.875rem;
+         font-weight: bold;
+         margin: 0;
+         
+          
+    } 
+    
+    .bg2 {
+        background-color: #363232;
+        background: fixed;
+        color: #f70000;
+        padding: 1.375rem;
+        text-align: left;   
+        margin-left: 12.5rem;
+        font-size: 1.5625rem;
+        width: 100%;
+         font-size: 1.875rem;
+         font-weight: bold;
+         margin: 0;
+    }
+    
+    
+    .bg2 h1 {
+        margin: -0.625rem; /* Remove default margin for h1 */
+        font-size: 2.5rem; /* Adjust the font size */
+        font-size: 1.875rem;
+        font-weight: bold;   
+        position: fixed;   
+        margin-left: 3.8125rem;
+        margin-top: -1.75rem;
+        
+    }
+    .bg3 {
+        background-color: #363232;
+        background: fixed;
+        color: #a41743;
+        padding: 1.375rem;
+        text-align: left;   
+        margin-left: 12.5rem;
+        font-size: 1.5625rem;
+        width: 100%;
+         font-size: 1.875rem;
+         font-weight: bold;
+         margin: 0;
+    }
+    
+    
+    .bg3 h3 {
+        margin: -0.625rem; /* Remove default margin for h1 */
+        font-size: 2.5rem; /* Adjust the font size */
+        font-size: 1.875rem;
+        font-weight: bold;   
+        position: fixed;   
+        margin-left: 3.8125rem;
+        margin-top: -1.75rem;
+        
+    }
+    
+    .origin-section {
+        background-color: #c0c0c0;
+        border-radius: 30.8125rem;
+        padding: 12.5625rem;
+        box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+        margin-top: 3.125rem;
+    }
+    
+    
+    .origin-section p {
+        font-size: 1rem;
+        color: #090909;
+        margin-bottom: 0.625rem;
+    }
+    
+    
+    .origin-section h2 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 0.9375rem;
+    }
+    
+    .origin-section h3 {
+        font-size: 1.5625rem;
+        font-weight: bold;
+        margin-top: 1.25rem;   
+        margin-bottom: 0.625rem;
+    }
+    
+    
+    .social-icons {
+        margin-top: 0.625rem; /* Add some top margin for spacing */
+    }
+    
+    .social-icons a {
+        margin-right: 0.625rem; /* Add some right margin for spacing between icons */
+    }
+    
+    .social-icons img {
+        width: 2.5rem; /* Set the desired width for your icons */
+        height: 2.5rem; /* Set the desired height for your icons */
+    }
+    
+
+
+html {
+    font-size: 62.5%;
+}
+@media(max-width:998px){
+    html{
+        font-size: 60%;
+    }
+}
+@media(max-width:800px){
+    html{
+        font-size: 30%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 30%;
+    }
+}
+@media(max-width:600px){
+    html{
+        font-size: 30%;
+    }
+}
+@media(max-width:500px){
+    html{
+        font-size: 30%;
+    }
+}
+@media(max-width:400px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width:300px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:200px){
+    html{
+        font-size: 30%;
+    }
+}
