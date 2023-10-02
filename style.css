@@ -404,7 +404,7 @@ header {
     
     .icon {
         position: absolute;
-        top: 0.3125rem;
+        top: 0.59rem;
         
         left: 0.625rem;
         width: 6.875rem; /* Adjust the width and height as needed */
@@ -428,7 +428,7 @@ header {
             padding: 1.18em;
             position: static;
             margin-top: 0;
-            margin-left: -21.5rem;
+            /* margin-left: -21.5rem; */
             
             -webkit-text-fill-color: #000000;
             -webkit-text-stroke-width: 1.0.3125rem;
@@ -475,14 +475,15 @@ header {
             background-color: #333; /* Background color */
             text-align: center; /* Center the text */
         }
-    header {
+    .header {
         
         color: #2a4567;
-        text-align: center;
-        padding: -55cm;
+        text-align: right;
+       
         position: fixed;
-        margin-top: 0.3125rem;
+        margin-top: 1rem;
         top: 0;
+        right: auto;
     }
     .nav-but {
         position:fixed;
@@ -507,14 +508,16 @@ header {
         background-color: #939191;
     }
     .container {
-        max-width: 41.9375rem;
+        max-width:20vmax;
         padding: 9.9375rem;
         border: 0.0625rem solid #ccc;
         border-radius: 2.3125rem;
         background-color: #f9f9f9;
-        margin-right: 30rem;
-        margin-left: 30rem;
-        
+        margin-right: auto;
+        margin-left: auto;
+        /* margin-right: 30rem;
+        margin-left: 30rem; */
+         
     }
     .heading {
         background-color: #569136; /* Set the background color for the heading */
@@ -668,16 +671,16 @@ header {
     .background {
         position: fixed;
         top: 0;
-        left: 0;    
-        width: 200%;
-        height: 3.75rem;
-      /*   background-color: #363232;
-         /* Set black background color */
+        left: 0;
+        width: 100%;
+        height: 4.75rem;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #363232;
     }
+    
+    
     
     
     .bg {
@@ -701,7 +704,7 @@ header {
           
     } 
     
-    .bg2 {
+    .bg2 { 
         background-color: #363232;
         background: fixed;
         color: #f70000;
@@ -713,17 +716,18 @@ header {
          font-size: 1.875rem;
          font-weight: bold;
          margin: 0;
-    }
-    
+    } 
     
     .bg2 h1 {
-        margin: -0.625rem; /* Remove default margin for h1 */
+        margin: 1rem; /* Remove default margin for h1 */
         font-size: 2.5rem; /* Adjust the font size */
         font-size: 1.875rem;
         font-weight: bold;   
-        position: fixed;   
-        margin-left: 3.8125rem;
-        margin-top: -1.75rem;
+        position: fixed; 
+        left:2.9em;
+        
+        /* margin-left: 1rem; */
+        margin-top: -1rem;
         
     }
     .bg3 {
@@ -798,7 +802,8 @@ header {
 
 
 html {
-    font-size: 62.5%;
+    font-size: 80.5%;
+    scroll-behavior: smooth;
 }
 @media(max-width:998px){
     html{
@@ -807,36 +812,49 @@ html {
 }
 @media(max-width:800px){
     html{
-        font-size: 30%;
+        font-size: 50%;
     }
 }
 @media(max-width:768px){
     html{
-        font-size: 30%;
+        font-size: 50%;
     }
 }
 @media(max-width:600px){
     html{
-        font-size: 30%;
+        font-size: 40%;
     }
 }
 @media(max-width:500px){
     html{
         font-size: 30%;
+        
     }
 }
 @media(max-width:400px){
     html{
-        font-size: 40%;
+        font-size: 30%;
+
+        
+        .container{
+            width: 100%;
+        }
+       
     }
 }
 @media(max-width:300px){
     html{
         font-size: 35%;
+        .container{
+            width: 100%;
+        }
     }
 }
 @media(max-width:200px){
     html{
         font-size: 30%;
+        .container{
+            width: 100%;
+        }
     }
 }
