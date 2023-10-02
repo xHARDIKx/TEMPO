@@ -1,4 +1,4 @@
-# TEMPO
+# TEMPOC
 # Temperature Converter - Tempoc
 
 ![logo](logo.png)
